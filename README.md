@@ -16,10 +16,7 @@ A clean and simple weather app built using Python. It fetches real-time weather 
 - **API:** OpenWeatherMap API
 - **Libraries:** `requests`, `tkinter` (standard), or `pyqt5`
 
-## 📸 Screenshots
 
-<!-- Add your screenshots here -->
-![Weather App Screenshot](./screenshots/main_ui.png)
 
 ## 🔧 Setup & Installation
 
