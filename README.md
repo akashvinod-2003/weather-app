@@ -1,73 +1,66 @@
-🌦️ Modern Weather App
+# 🌦️ Python Weather App
 
-A sleek and responsive weather app that displays real-time weather data using beautiful animations and intuitive UI. Built with a focus on modern design and user experience.
+A clean and simple weather app built using Python. It fetches real-time weather data from the OpenWeatherMap API and displays it using a graphical user interface (GUI).
 
-🚀 Features
+## 🚀 Features
 
-🌍 Get current weather info by city name
+- 🌍 Get current weather info by city name
+- 🌡️ Shows temperature, humidity, wind speed, and weather condition
+- 📆 Simple and responsive GUI
+- 🐍 Built entirely with Python
 
-🌡️ Displays temperature, humidity, wind speed, and conditions
+## 🛠️ Tech Stack
 
-🎨 Modern UI with animated icons and transitions
+- **Language:** Python 3.x
+- **GUI:** Tkinter (or PyQt, depending on your actual choice)
+- **API:** OpenWeatherMap API
+- **Libraries:** `requests`, `tkinter` (standard), or `pyqt5`
 
-📆 Plans to convert into a standalone .exe desktop app
+## 📸 Screenshots
 
-🛠️ Tech Stack
+<!-- Add your screenshots here -->
+![Weather App Screenshot](./screenshots/main_ui.png)
 
-Frontend: HTML, CSS, JavaScript
+## 🔧 Setup & Installation
 
-API: OpenWeatherMap API
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/python-weather-app.git
+   cd python-weather-app
+   ```
 
-Optional Enhancements: Electron (for .exe), Lottie (for animations)
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-📸 Screenshots
+3. Run the app:
+   ```bash
+   python main.py
+   ```
 
+## 🔑 API Key Setup
 
+1. Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+2. Get your free API key
+3. Paste it into your code:
+   ```python
+   API_KEY = "YOUR_API_KEY_HERE"
+   ```
 
-🔧 Setup & Installation
+## 💡 Future Enhancements
 
-Clone the repository:
+- 🌐 Auto location detection (using geolocation or IP-based services)
+- 🎨 Enhanced GUI styling or theme switcher
+- 📦 Convert to `.exe` using `pyinstaller`
+- 🔊 Voice search or assistant integration
 
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+## 🙌 Author
 
-Open index.html in any modern browser.
+**Akash**  
+Built with ❤️ in Python
 
-🔌 To use OpenWeatherMap API:
-
-Sign up at https://openweathermap.org/api
-
-Get your free API key.
-
-Replace the API key in the script:
-
-const API_KEY = "YOUR_API_KEY_HERE";
-
-🖥️ Convert to Standalone .exe (Optional)
-
-To convert into a Windows app:
-
-Use Electron.js
-
-Package with electron-packager or electron-builder
-
-Let me know if you want help setting this part up!
-
-💡 Future Enhancements
-
-⛅ Real weather animations (e.g. rain, snow, sun)
-
-📍 Auto location detection using Geolocation API
-
-📱 Mobile responsiveness
-
-🌐 Multi-language support
-
-🙌 Author
-
-AkashMade with ❤️ and code
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
